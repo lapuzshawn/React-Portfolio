@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Portfolio from './components/Portfolio';
 
+
+/*
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,19 @@ function App() {
       </div>
 
       </header>
+    </div>
+  );
+}
+
+export default App;
+*/
+
+import PortfolioContainer from './components/PorfolioContainer'; 
+
+function App() {
+  return (
+    <div className="xapp">
+      <PortfolioContainer />
     </div>
   );
 }

@@ -4,6 +4,8 @@ function Footer() {
   return (
     <footer>
       <p>Footer content here</p>
+      <p>Footer content here</p>
+      <p>Footer content here</p>
     </footer>
   );
 }
