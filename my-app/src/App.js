@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <div className="bucket-app">
+      <Portfolio />
+      </div>
+
       </header>
     </div>
   );
