@@ -1,33 +1,40 @@
-
-
-const features = [
-  {
-    name: 'NME',
-    description:
-      'DSC',
-
-  },
-]
+import React from 'react'
+import '../styles/style.css';
+import { Container, Row, Col } from 'react-bootstrap'
 
 export default function AboutMe() {
   return (
-    <div>
-    <h1>About Me</h1>
-    <p>
-      Welcome to my portfolio! I'm a web developer with a passion for creating amazing user experiences. 
-      I have expertise in front-end technologies such as HTML, CSS, and JavaScript, and I enjoy working 
-      with modern frameworks like React.
-    </p>
-    <p>
-      I believe in clean and elegant code that is easy to maintain and understand. I'm always eager to 
-      learn new technologies and expand my skill set to stay up-to-date with the latest industry trends.
-    </p>
-    <p>
-      When I'm not coding, you can find me exploring the outdoors, reading a good book, or experimenting 
-      with new recipes in the kitchen. Feel free to browse through my portfolio and get in touch if you 
-      have any questions or project ideas!
-    </p>
-  </div>
+    <div className='aboutpagebackground'>
+    <Container>
+        <Row className='textbackground'>
+            <Col md={7} >
+                <h3 className='aboutmetext'>About <span>Me</span></h3>
+                <p className='aboutdetails'>I'm a self-taught Front End developer. I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices.
+                </p>
+                <ul className='skilllist'>
+                    <Row>
+                        <h3>Skills</h3>
+                        <Col md={7}>
+                            <li>HTML5/CSS3</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Bootsrap 5</li>
+                        </Col>
+                        <Col md={5}>
+                            <li>React Js</li>
+                            <li>Redux Js</li>
+                            <li>React-Bootsrap</li>
+                            <li>Material-ui</li>
+                            <li>Git/Github</li>
+                        </Col>
+                    </Row>
+                </ul>
+            </Col>
+            <Col md={5}>
+                <div className="webimage"></div>
+            </Col>
+        </Row>
+    </Container>
+</div>
 );
-  
 }
