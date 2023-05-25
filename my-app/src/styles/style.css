@@ -52,40 +52,6 @@ code {
   opacity: 1 !important;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
-  opacity: 0.9 !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px !important;
-  visibility: hidden !important;
-  background-color: transparent !important;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(-135deg) !important;
-  opacity: 0.9 !important;
-}
 .logo {
   background-size: cover;
   width: 90px;
@@ -105,6 +71,7 @@ code {
 .nav-link:hover {
   color: #191919 !important;
 }
+
 .resumebtn {
   margin-left: 30px;
   border-radius: 25px;
@@ -200,6 +167,7 @@ code {
     transform: rotate(0deg);
   }
 }
+
 .Typewriter__wrapper {
   font-size: 2em !important;
   color: #191919 !important;

@@ -1,29 +1,36 @@
 import React, { useState } from 'react';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Navigation from '../components/Navigation';
 import Project from '../components/Project';
 import projectsData from '../components/projectsData';
+import { Container, Row, Col } from 'react-bootstrap'
 
-
+import '../styles/style.css';
 
 // import './App.css';
 
-
-
 function PortfolioPage() {
       return (
-        <div>
+        <div className="projectbackground">
         <h1>Portfoliow</h1>
-        <div className="project-list">
+        <div className="project-list"> 
           {projectsData.map((project, index) => (
-            <Project
-              key={index}
-              title={project.title}
-              image={project.image}
-              deployedLink={project.deployedLink}
-              githubLink={project.githubLink}
-            />
+          <Container fluid className="project-section">
+            <Container>
+              <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+              <div className="textbackground row"> 
+ 
+                  <Col md={4} className="project-card">
+                  <Project
+                    key={index}
+                    title={project.title}
+                    image={project.image}
+                    deployedLink={project.deployedLink}
+                    githubLink={project.githubLink}
+                  />
+                  </Col>
+                </div>
+              </Row>
+            </Container>
+          </Container>
           ))}
         </div>
       </div>
