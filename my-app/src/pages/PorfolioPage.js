@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
+import Project from '../components/Project';
+import projectsData from '../components/projectsData';
+
 
 
 // import './App.css';
@@ -10,9 +13,20 @@ import Navigation from '../components/Navigation';
 
 function PortfolioPage() {
       return (
-              <div>
-              <h1>Portfolio</h1>
-            </div>
+        <div>
+        <h1>Portfoliow</h1>
+        <div className="project-list">
+          {projectsData.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
+              image={project.image}
+              deployedLink={project.deployedLink}
+              githubLink={project.githubLink}
+            />
+          ))}
+        </div>
+      </div>
       );
   }
 
@@ -20,6 +34,20 @@ function PortfolioPage() {
   export default PortfolioPage;
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* 
   const [currentPage, setCurrentPage] = useState('AboutMe');
   

@@ -1,6 +1,29 @@
 import React from 'react';
 
-function Project({ title, image, description, deployedLink, githubLink }) {
+
+
+function Project({ title, image, deployedLink, githubLink }) {
+  return (
+    <div className="project">
+      <h3>{title}</h3>
+      <img src={image} alt={title} />
+      <div className="project-links">
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+          View Deployed
+        </a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          View GitHub
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Project;
+
+
+
+/*function Project({ title, image, description, deployedLink, githubLink }) {
   return (
     <div className="project">
       <img src={image} alt={title} />
@@ -21,34 +44,17 @@ function Project({ title, image, description, deployedLink, githubLink }) {
 
 
 export default Project;
-
+*/
 
 /* */ 
 
 
-/* 
-function Portfolio() {
-  const projects = [
-    {
-      title: 'Project 1',
-      image: 'project1.png',
-      description: 'Description of Project 1',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/yourusername/project1',
-    },
-    {
-      title: 'Project 2',
-      image: 'project2.png',
-      description: 'Description of Project 2',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/yourusername/project2',
-    },
-    // Add more projects as needed
-  ];
+/*
+function Project() {
 
   return (
-    <section id="portfolio">
-      <h2>Portfolio</h2>
+    <section id="Project">
+      <h2>Project</h2>
       <div className="projects">
         {projects.map((project, index) => (
           <Project
@@ -65,5 +71,5 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
-*/ 
+export default Project;
+*/
