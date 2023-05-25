@@ -1,5 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+
+
+import AboutMe from './pages/AboutMe'; 
+import Contact from './pages/Contact'; 
+import PortfolioPage from './pages/PorfolioPage'; 
+import Resume from './pages/Resume'; 
+
+
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
+
+function App() {
+  return (
+    <div className="xapp">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
+
+  );
+}
+
+export default App;
+
 
 
 /*
@@ -31,14 +71,16 @@ function App() {
 export default App;
 */
 
-import PortfolioContainer from './components/PorfolioContainer'; 
 
+
+/*
 function App() {
   return (
     <div className="xapp">
-      <PortfolioContainer />
+      <PortfolioPage />
     </div>
   );
 }
 
 export default App;
+*/

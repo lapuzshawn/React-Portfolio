@@ -7,11 +7,10 @@ import Footer from './Footer';
 function Header() {
   return (
     <header>
-      <h1>Developer's Name</h1>
-      <Router>
+      <h1>Welcome to Shawn Lapuz's Website</h1>
+      
         <Navigation />
-        <Footer />
-      </Router>
+      
     </header>
   );
 }
