@@ -11,6 +11,7 @@ function Project({ title, image, deployedLink, githubLink }) {
         <a href={deployedLink} target="_blank" rel="noopener noreferrer">
           View Deployed
         </a>
+        <br></br>
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           View GitHub
         </a>

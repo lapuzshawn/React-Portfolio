@@ -20,9 +20,9 @@ function Navigation() {
           <NavLink to="/contact" className="nav-link" activeClassName="active">
             Contact
           </NavLink>
-          <NavLink to="/resume" className="nav-link" activeClassName="active">
+          {/* <NavLink to="/resume" className="nav-link" activeClassName="active">
             Resume
-          </NavLink>
+          </NavLink> */}
         </Nav>
     </Navbar>
   );

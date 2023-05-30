@@ -16,7 +16,7 @@ function PortfolioPage() {
           <Container fluid className="project-section">
             <Container>
               <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-              <div className="textbackground row"> 
+                <div className="textbackground row"> 
  
                   <Col md={4} className="project-card">
                   <Project

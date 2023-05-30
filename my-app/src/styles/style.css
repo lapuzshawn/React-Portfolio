@@ -17,6 +17,13 @@ code {
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.footer {
+  /* background: rgb(255, 255, 255);
+   */
+   background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 100%);
+
+  /* opacity: 0.5; */
+}
 /* Header style */
 
 .navbar {
