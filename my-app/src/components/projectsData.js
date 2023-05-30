@@ -1,15 +1,15 @@
 const projectsData = [
     {
-      title: 'Project 1',
-      image: 'project1.png',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/yourusername/project1',
+      title: 'Weather Dashboard',
+      image: 'projectDataImg/M6-Screenshot2.png',
+      deployedLink: 'https://lapuzshawn.github.io/Weather-Dashboard/',
+      githubLink: 'https://github.com/lapuzshawn/Weather-Dashboard',
     },
     {
-      title: 'Project 2',
-      image: 'project2.png',
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/yourusername/project2',
+      title: 'Note Taker',
+      image: 'projectDataImg/M11-Screenshot3.png',
+      deployedLink: 'https://lapuzshawn.github.io/Note-Taker/',
+      githubLink: 'https://github.com/lapuzshawn/Note-Taker',
     },
     // Add more projects as needed
   ];
