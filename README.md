@@ -3,15 +3,15 @@
 ## Description
 
 Welcome to my vibrant web development portfolio! 
-As a web developer, I believe in embracing the power of community and showcasing my skills through the wonderful world of React.
+As a web developer, I believe in embracing the power of community and showcasing my skills through the colorful world of React.
 
-Inside this virtual hub, you'll discover three captivating pages: "About Me," "My Projects," and a handy "Contact Me" section. 
+Inside this virtual hub, you'll discover three pages: "About Me," "My Projects," and a handy "Contact Me" section. 
 (Just a heads-up, I've decided to keep my resume page hush-hush for privacy reasons. Gotta protect those top-secret skills, you know?)
 
-Oh, and if you're curious about my public links, you can find them gracefully lounging in the footer. 
-And hey, don't hesitate to slide into my LinkedIn DMs! Let's connect and make some web magic together.
+If you're curious about my public links, you can find them gracefully lounging in the footer. 
+Feel free to slide into my LinkedIn DMs! Let's connect and make some web magic together.
 
-So, what are you waiting for? Dive in and explore!
+What are you waiting for? Dive in and explore!
 
 
 
@@ -53,7 +53,9 @@ I am presented with text or icon links to the developer’s GitHub and LinkedIn 
 
 ## Mock-Up
 
-![IMG](./Assets_Ins/20-react-homework-demo-01.gif)
+![IMG](./assets/images/M20-aboutme.png)
+![IMG](./assets/images/M20-projects.png)
+![IMG](./assets/images/M20-contact.png)
 
 
 ## License 
