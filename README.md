@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 20 React: React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to my vibrant web development portfolio! 
+As a web developer, I believe in embracing the power of community and showcasing my skills through the wonderful world of React.
 
-In the project directory, you can run:
+Inside this virtual hub, you'll discover three captivating pages: "About Me," "My Projects," and a handy "Contact Me" section. 
+(Just a heads-up, I've decided to keep my resume page hush-hush for privacy reasons. Gotta protect those top-secret skills, you know?)
 
-### `npm start`
+Oh, and if you're curious about my public links, you can find them gracefully lounging in the footer. 
+And hey, don't hesitate to slide into my LinkedIn DMs! Let's connect and make some web magic together.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+So, what are you waiting for? Dive in and explore!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Table of Contents 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Mock-up](#mock-up)
+  - [License](#license)
+  
+  
+## Installation
+```
+npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acceptance Criteria
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+On a single-page application portfolio for a web developer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I am presented with a page containing a header, a section for content, and a footer when I load the portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio when I view the header
 
-## Learn More
+I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted when I view the navigation titles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) when I view the footer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Mock-Up
 
-### Analyzing the Bundle Size
+![IMG](./Assets_Ins/20-react-homework-demo-01.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## License 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![License](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://opensource.org/licenses/MIT)
